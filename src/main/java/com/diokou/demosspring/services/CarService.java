@@ -22,9 +22,7 @@ public class CarService {
     public List<Car> getCars()
     {
         List<Car> _cars =new  ArrayList<>();
-        _carRepo.findAll().forEach(car ->{
-            _cars.add(car);
-        });
+        _carRepo.findAll().forEach(_cars::add);
         return _cars;
     }
     // get one car by name

@@ -3,7 +3,6 @@ package com.diokou.demosspring.controllers;
 import com.diokou.demosspring.models.Car;
 import com.diokou.demosspring.services.CarService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
